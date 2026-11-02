@@ -12,4 +12,4 @@ MaxSessions 10
 MaxStartups 7
 Banner /etc/ssh/ssh_banner
 # Security Note
-# Changing the SSH port alone does not guarantee security.
+# SSH security requires more than changing the listening port.
