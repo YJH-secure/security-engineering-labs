@@ -11,3 +11,5 @@ MaxAuthTries 2
 MaxSessions 10
 MaxStartups 7
 Banner /etc/ssh/ssh_banner
+# Security Note
+# Changing the SSH port alone does not guarantee security.
