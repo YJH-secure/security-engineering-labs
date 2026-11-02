@@ -1,0 +1,8 @@
+
+# Ubuntu PAM Account Lockout - Educational Lab
+# Configuration example from the lab
+# PAM module integration is required for enforcement.
+
+deny = 5
+unlock_time = 600
+fail_interval = 900
