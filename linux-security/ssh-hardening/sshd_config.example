@@ -1,0 +1,13 @@
+
+# SSH Hardening - Educational Lab
+# Rocky Linux 9.3 / OpenSSH
+# Example configuration excerpt
+# Do not replace the entire sshd_config with this file.
+
+Port 10022
+PermitRootLogin no
+LoginGraceTime 30
+MaxAuthTries 2
+MaxSessions 10
+MaxStartups 7
+Banner /etc/ssh/ssh_banner
