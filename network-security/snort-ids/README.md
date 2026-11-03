@@ -157,3 +157,23 @@ snort -A console -q -c /etc/snort/snort.conf -i ens160
 - 일반 종료와 강제 종료의 차이를 이해해야 합니다.
 - 문제 해결 후 서비스를 재실행하고 기능을 다시 검증하는 과정이 중요합니다.
 - 추정한 원인과 실제 확인된 결과를 구분해 기록해야 합니다.
+
+
+### 5.6 실제 트러블슈팅 증거 화면
+
+**① Snort 종료 지연 화면**
+
+![Snort 종료 지연](screenshots/01-snort-stop-issue.png)
+
+**② 실행 중인 프로세스 확인**
+
+![Snort 프로세스 확인](screenshots/02-snort-process-check.png)
+
+**③ 프로세스 종료 및 상태 확인**
+
+![Snort 프로세스 종료](screenshots/03-snort-process-stop.png)
+
+**④ 재실행 후 탐지 결과 검증**
+
+![Snort 탐지 재검증](screenshots/04-snort-detection-verified.png)
+  
